@@ -19,10 +19,10 @@ to manage their daily tasks using a clean and interactive UI.
 - [Babel]
 - [JSON server]
 
-> NB: This project utilizes SFCs and follows the Options API style in Vue.js 3  
+> NB: This project uses SFCs and follows the Options API style in Vue.js 3  
 
 ## Installing/Getting Started
-This sections serves to help setup and run the Vue.js project locally.  
+This sections serves to help setup and run the project locally.  
 
 ### Prerequisites
 - Node.js
