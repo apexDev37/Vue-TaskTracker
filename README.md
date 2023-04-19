@@ -1,7 +1,7 @@
 # Task Tracker
 > Manage daily tasks, set reminders to meet deadlines, always stay productive.
 
-Task Tracker is a personal project that provides a SPA application with CRUD functionality to enable users 
+Task Tracker is a personal development project for a SPA application with CRUD functionality to enable users 
 to manage their daily tasks using a clean and interactive UI.
 
 ### Features:
@@ -19,14 +19,14 @@ to manage their daily tasks using a clean and interactive UI.
 - [Babel]
 - [JSON server]
 
-> NB: This project uses SFCs and follows the Options API style in Vue.js 3  
+> ℹ This project uses SFCs and follows the [Options API] style in Vue.js 3  
 
 ## Installing/Getting Started
 This sections serves to help setup and run the project locally.  
 
 ### Prerequisites
-- Node.js
-- npm
+- [Node.js]
+- [npm]
 
 Here's a great [article] from Digital Ocean to install Node.js incase you don't have it. 
 
@@ -54,7 +54,7 @@ Run the command below to initiate the install.
     $ npm install
 ```
 
-The command above installs the dependencies in the local node_modules folder.
+The command above installs the dependencies in the local `node_modules` folder.
 
 Start the development server and run the application.  
 Once started, you can access the application on the default port: http://localhost:8080/  
@@ -66,12 +66,12 @@ You can run the application with the following command:
     $ npm run serve
 ```
 
-This will execute the `vue-cli-service serve` command defined under `serve` in the `package.json` file.
+This will execute the `vue-cli-service serve` command defined under `serve` in the [package.json](./package.json) file.
 
-> NB: You'll need to start the backend server in order for Vue to fetch application data. See details in the [Database](#database)
+> ⚠ You'll need to start the backend server in order for Vue to fetch application data via an api interface. See details in the [Database](#database) section.
 
 ## Database
-The lightweight [JSON Server] was used as quick and easy solution to provide persistent storage for tasks. JSON Server acts a quick back-end for prototyping and mocking. Data can be viewed and easily modified in JSON format, exposed through an API. See, `taskDB.json` to view app data. You can access the mock backend server and database on the defined port: http://localhost:5000/
+The lightweight [JSON Server] was used as quick and easy solution to provide persistent storage for tasks. JSON Server acts a quick back-end for prototyping and mocking. Data can be viewed and easily modified in JSON format, exposed through an API. See, [taskDB.json](./taskDB.json) to view app data. Access the mock backend server on the defined port: http://localhost:5000/tasks  
 You can run the backend server with the following command:
 
 - Run backend server
@@ -97,7 +97,7 @@ See the official [Configuration Reference] for additional details.
 
 ## License
 For a repository to indeed be open source, you'll need to _license_ it so that others are free to use, change, and distribute the software. This project ensures this using the [MIT license]. 
-Find the full original text version of the license [here]. Follow the 
+Find the full original text version of the license [here](./LICENSE). Follow the 
 instructions to apply the right to your repository.
 
 
@@ -105,6 +105,19 @@ instructions to apply the right to your repository.
 its job. There is no need to format nicely because it shouldn't be seen. 
 Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-[article]: <https://www.digitalocean.com/community/tutorial_series/how-to-install-node-js-and-create-a-local-development-environment>
+[HTML5]: <https://developer.mozilla.org/en-US/docs/Glossary/HTML5>
+[CSS3]: <https://developer.mozilla.org/en-US/docs/Web/CSS>
+[JavaScript]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript>
+[Vue.js]: <https://vuejs.org/>
+[Babel]: <https://babeljs.io/>
 [JSON Server]: <https://www.npmjs.com/package/json-server>
+[Options API]: <https://vuejs.org/guide/introduction.html#api-styles>
+
+[Node.js]: <https://nodejs.org/en>
+[npm]: <https://www.npmjs.com/>
+
+
+[article]: <https://www.digitalocean.com/community/tutorial_series/how-to-install-node-js-and-create-a-local-development-environment>
 [Configuration Reference]: <https://cli.vuejs.org/config/>
+
+[MIT license]: <https://en.wikipedia.org/wiki/MIT_License>
