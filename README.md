@@ -1,8 +1,12 @@
 # Task Tracker
 > Manage daily tasks, set reminders to meet deadlines, always stay productive.
 
-Task Tracker is a personal development project for a SPA application with CRUD functionality to enable users 
-to manage their daily tasks using a clean and interactive UI.
+Task Tracker is a SPA application with CRUD functionality to enable users to manage their daily tasks using a clean and interactive UI. The motivation behind it was to delve into Vue.js 3.
+
+<img src="./resources/mockups/default.PNG" alt="Index" width="20%">
+<img src="./resources/mockups/add-task.PNG" alt="Add task" width="25%">
+<img src="./resources/mockups/update-task.PNG" alt="Update task" width="22%">
+<img src="./resources/mockups/about.PNG" alt="About page" width="20%">
 
 ### Features:
 - Create new tasks to accomplish
@@ -22,7 +26,7 @@ to manage their daily tasks using a clean and interactive UI.
 > ℹ This project uses SFCs and follows the [Options API] style in Vue.js 3  
 
 ## Installing/Getting Started
-This sections serves to help setup and run the project locally.  
+> This sections serves to help setup and run the project locally.  
 
 ### Prerequisites
 - [Node.js]
@@ -68,10 +72,11 @@ You can run the application with the following command:
 
 This will execute the `vue-cli-service serve` command defined under `serve` in the [package.json](./package.json) file.
 
-> ⚠ You'll need to start the backend server in order for Vue to fetch application data via an api interface. See details in the [Database](#database) section.
+> ⚠ You'll need to start the backend server for Vue to fetch application data via an api interface. See details in the [Database](#database) section.
 
 ## Database
-The lightweight [JSON Server] was used as quick and easy solution to provide persistent storage for tasks. JSON Server acts a quick back-end for prototyping and mocking. Data can be viewed and easily modified in JSON format, exposed through an API. See, [taskDB.json](./taskDB.json) to view app data. Access the mock backend server on the defined port: http://localhost:5000/tasks  
+The lightweight [JSON Server] was used as quick and easy solution to provide persistent storage for tasks. JSON Server acts a quick back-end for prototyping and mocking. Data can be viewed and easily modified in JSON format, exposed through an API. See, [taskDB.json](./taskDB.json) to view app data.  
+Access the mock backend server on the defined port: http://localhost:5000/tasks  
 You can run the backend server with the following command:
 
 - Run backend server
@@ -79,10 +84,11 @@ You can run the backend server with the following command:
     $ npm run backend
 ```
 
-This will execute the `json-server --watch taskDB.json --port 5000` command defined under `backend` in the `package.json` file.
+This will execute the `json-server --watch taskDB.json --port 5000` command defined under `backend` in the [package.json](./package.json) file.
 
 ## Production
-This section serves to help setup the project for a production environment by compiling and minifying files.  
+> This section serves to help setup the project for a production environment by compiling and minifying files.  
+
 You can build for production with the following command:
 
 - Build for production
@@ -90,7 +96,7 @@ You can build for production with the following command:
     $ npm run build
 ```
 
-This will execute the `vue-cli-service build` command defined under `build` in the `package.json` file.
+This will execute the `vue-cli-service build` command defined under `build` in the [package.json](./package.json) file.
 
 #### Customize configuration
 See the official [Configuration Reference] for additional details.
