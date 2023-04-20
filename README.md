@@ -72,6 +72,8 @@ You can run the application with the following command:
 
 This will execute the `vue-cli-service serve` command defined under `serve` in the [package.json](./package.json) file.
 
+<img src="./resources/terminal/vuejs.PNG" alt="Index" width="80%">
+
 > ⚠ You'll need to start the backend server for Vue to fetch application data via an api interface. See details in the [Database](#database) section.
 
 ## Database
@@ -86,6 +88,8 @@ You can run the backend server with the following command:
 
 This will execute the `json-server --watch taskDB.json --port 5000` command defined under `backend` in the [package.json](./package.json) file.
 
+<img src="./resources/terminal/backend.PNG" alt="Index" width="80%">
+
 ## Production
 > This section serves to help setup the project for a production environment by compiling and minifying files.  
 
@@ -97,6 +101,8 @@ You can build for production with the following command:
 ```
 
 This will execute the `vue-cli-service build` command defined under `build` in the [package.json](./package.json) file.
+
+<img src="./resources/terminal/build.PNG" alt="Index" width="80%">
 
 #### Customize configuration
 See the official [Configuration Reference] for additional details.
