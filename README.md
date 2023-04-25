@@ -3,10 +3,7 @@
 
 Task Tracker is a SPA application with CRUD functionality to enable users to manage their daily tasks using a clean and interactive UI. The motivation behind it was to delve into Vue.js 3.
 
-<img src="./resources/mockups/default.PNG" alt="Index" width="20%">
-<img src="./resources/mockups/add-task.PNG" alt="Add task" width="25%">
-<img src="./resources/mockups/update-task.PNG" alt="Update task" width="22%">
-<img src="./resources/mockups/about.PNG" alt="About page" width="20%">
+<img src="./resources/mockups/default.PNG" alt="Index" width="20%"><img src="./resources/mockups/add-task.PNG" alt="Add task" width="25%"><img src="./resources/mockups/update-task.PNG" alt="Update task" width="22%"><img src="./resources/mockups/about.PNG" alt="About page" width="20%">
 
 ### Features:
 - Create new tasks to accomplish
